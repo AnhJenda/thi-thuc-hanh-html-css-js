@@ -1,0 +1,82 @@
+body {
+    width: 1300px;
+    font-family: "Times New Roman", Verdana, sans-serif;
+    background-image: url("../images/background.jpg");
+}
+#wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1300px;
+    background-color: beige;
+}
+
+.header {
+    display: flex;
+    width: 1100px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.header #avatar {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+.header #profile {
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    text-align: left;
+}
+.header #heading-right {
+    width: 500px;
+    height: 300px;
+    float: end;
+    margin-left: 60px;
+    text-align: right;
+}
+#content {
+    width: 1100px;
+    margin-top: 100px;
+    font-size: 18px;
+    margin-left: 100px;
+}
+.footer {
+    display: flex;
+    width: 1100px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.footer #video {
+    float: left;
+    border: 1px solid #000000;
+}
+.footer #images {
+    margin-left: 50px;
+    width: 300px;
+    border: 1px solid #000000;
+    padding: 20px;
+}
+#images2 {
+    margin-left: 90px;
+}
+#images1, #images2 {
+    margin-top: -5px;
+}
+#images4 {
+    margin-left: 28px;
+}
+.footer #link {
+    width: 250px;
+    height: 300px;
+    float: right;
+    margin-left: 50px;
+}
+.footer #link a {
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 16px;
+}
